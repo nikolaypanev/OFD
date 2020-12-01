@@ -57,6 +57,7 @@ Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des In
 |Version|   Datum   |Vorgenommene Änderung|Bearbeiter/Autor|
 |:-----:|:----------|:--------------------|:---------------|
 |  0.01 | 7.08.2020 | Erstellung          |   Steinbauer   |
+
 <br></br>
 
 <!-- Seite 2 endet hier -->
