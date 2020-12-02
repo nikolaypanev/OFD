@@ -78,9 +78,9 @@ def add(num1, num2):
 
 <!-- Tables -->
 |Column 1 heading|Column 2 heading | Column 3 heading|
-|----------------|-----------------|-----------------|
-|Column 1, Row 1 | Column 2, Row 1 | Column 3, Row 1 |
-|Column 1, Row 2 | Column 2, Row 2 | Column 3, Row 2 |
+|:---------------|:---------------:|----------------:|
+|left aligned    |    centered     |    right aligned|
+|sample text     |   sample text   |      sample text|
 
 <!-- Task list -->
 
