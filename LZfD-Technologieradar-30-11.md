@@ -4,7 +4,6 @@
 <!--![LZfD-Logo](lzfd.jpeg)-->
 # LZfD-Technologieradar
 
-
 |                      | |
 |---------------------------|---------|
 | Dokumentenverantwortlicher | EDV 639 |
@@ -14,7 +13,6 @@
 | Vertraulichkeitsklasse | TLP:GREEN |
 | Dokumentenart | *Wählen Sie ein Element aus* |
 
-<br></br>
 <!--Seite 1 endet hier-->
 <!-- Seite 2 -->
 
@@ -43,8 +41,6 @@
 |YAML|YAML Ain’t Markup Language|
 |ZAK|Zielarchitektur KONSENS|
 
-<br></br>
-
 ## Begriffsverzeichnis
 
 Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des Informationssicherheitsbeauftragten ein zentrales Begriffsverzeichnis (Glossar) geführt. Diese Begriffsbestimmungen sind verbindlich. <br></br>
@@ -52,15 +48,12 @@ Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des In
 ## Abbildungsverzeichnis
 
 **Es konnten keine Einträge für ein Abbildungsverzeichnis gefunden werden.**
-<br></br>
 
 ## Dokumentenhistorie
 
 |Version|   Datum   |Vorgenommene Änderung|Bearbeiter/Autor|
 |:-----:|:----------|:--------------------|:---------------|
 |  0.01 | 7.08.2020 | Erstellung          |   Steinbauer   |
-
-<br></br>
 
 <!-- Seite 2 endet hier -->
 <!-- Seite 3 -->
@@ -84,8 +77,6 @@ Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des In
 
 4. [Requirements Engineering](#req-engineering)
     1. [Konzepte und Techniken](#req-engineering-konzepte)
-
-<br></br>
 
 ## **1 Einleitung <a name="einleitung"></a>**
 
