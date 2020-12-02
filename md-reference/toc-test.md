@@ -1,4 +1,4 @@
-# Table of Contents
+# [Table of Contents](#toc-test)
 
 1. [What is Lorem Ipsum]()
 2. [Where does it come from]()
