@@ -60,14 +60,14 @@ Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des In
 ## Inhaltsverzeichnis
 
 1. [Einleitung](#einleitung)
-    1. [Zusammenfassung](#überblick) <!-- Überblick in der Text-->
+    1. [Zusammenfassung](#11überblick) <!-- Überblick in der Text-->
     2. [Ziele](#ziele)
     3. [Gliederung](#gliederung)
     4. [Aktueller Stand und nächste Schritte](#aktueller-stand)
 
 2. [Betrieb und Entwicklungsumgebung](#betrieb)
-    1. [Konzepte und Techniken](#betrieb-konzepte)
-    2. [Plattformen](#betrieb-plattformen)
+    1. [Konzepte und Techniken](#21-konzepte-und-techniken)
+    2. [Plattformen](#22-plattformen)
     3. [Werkzeuge und Libraries](#betrieb-werkzeuge)
 
 3. [Entwicklung](#entwicklung)
