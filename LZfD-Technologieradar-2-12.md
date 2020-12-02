@@ -61,22 +61,22 @@ Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des In
 
 1. [Einleitung](#1-einleitung)
     1. [Zusammenfassung](#11-überblick) <!-- Überblick in der Text-->
-    2. [Ziele](#ziele)
-    3. [Gliederung](#gliederung)
-    4. [Aktueller Stand und nächste Schritte](#aktueller-stand)
+    2. [Ziele](#12-ziele)
+    3. [Gliederung](#13-gliederung)
+    4. [Aktueller Stand und nächste Schritte](#14-aktueller-stand)
 
-2. [Betrieb und Entwicklungsumgebung](#betrieb)
+2. [Betrieb und Entwicklungsumgebung](#2-betrieb)
     1. [Konzepte und Techniken](#21-konzepte-und-techniken)
     2. [Plattformen](#22-plattformen)
     3. [Werkzeuge und Libraries](#23-werkzeuge-und-libraries)
 
-3. [Entwicklung](#3entwicklung)
-    1. [Konzepte und Techniken](#31-entwicklung-konzepte)
-    2. [Sprachen und Frameworks](#32)
-    3. [Werkzeuge und Libraries](#entwicklung-werkzeuge)
+3. [Entwicklung](#3-entwicklung)
+    1. [Konzepte und Techniken](#31-konzepte-und-techniken)
+    2. [Sprachen und Frameworks](#32-sprachen-und-frameworks)
+    3. [Werkzeuge und Libraries](#33-werkzeuge-und-libraries)
 
-4. [Requirements Engineering](#req-engineering)
-    1. [Konzepte und Techniken](#req-engineering-konzepte)
+4. [Requirements Engineering](#4-requirements-engineering)
+    1. [Konzepte und Techniken](#41-konzepte-und-techniken)
 
 ## **1 Einleitung**
 
