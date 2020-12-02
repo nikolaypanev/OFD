@@ -43,7 +43,7 @@
 
 ## Begriffsverzeichnis
 
-Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des Informationssicherheitsbeauftragten ein zentrales Begriffsverzeichnis (Glossar) geführt. Diese Begriffsbestimmungen sind verbindlich. <br></br>
+Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des Informationssicherheitsbeauftragten ein zentrales Begriffsverzeichnis (Glossar) geführt. Diese Begriffsbestimmungen sind verbindlich.
 
 ## Abbildungsverzeichnis
 
@@ -78,15 +78,17 @@ Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des In
 4. [Requirements Engineering](#req-engineering)
     1. [Konzepte und Techniken](#req-engineering-konzepte)
 
-## **1 Einleitung <a name="einleitung"></a>**
+## **1 Einleitung**
 
-### **1.1 Überblick <a name="ueberblick"></a>**
+### **1.1 Überblick**
 
-Der LZfD-Technologieradar benennt neue und bereits am LZfD eingesetzte Technologien und ordnet deren Relevanz für die Weiterentwicklung des LZfDs ein. Er orientiert sich dabei grob an der Struktur des Technology Radars der Firma ThoughtWorks. <br></br>
-Der LZfD-Technologieradar fokusiert sich aktuell auf die Themen Entwicklung  und Entwicklungsumgebung. Zukünftig sollen die Themen Entwicklung, Client und Data Center abgedeckt werden. <br></br>
-Der LZfD-Technologieradar erhebt keinen Anspruch auf Vollständigkeit. Es handelt sich um eine Momentaufnahme. <br></br>
+Der LZfD-Technologieradar benennt neue und bereits am LZfD eingesetzte Technologien und ordnet deren Relevanz für die Weiterentwicklung des LZfDs ein. Er orientiert sich dabei grob an der Struktur des Technology Radars der Firma ThoughtWorks.
 
-### **1.2 Ziele <a name="ziele"></a>**
+Der LZfD-Technologieradar fokusiert sich aktuell auf die Themen Entwicklung  und Entwicklungsumgebung. Zukünftig sollen die Themen Entwicklung, Client und Data Center abgedeckt werden.
+
+Der LZfD-Technologieradar erhebt keinen Anspruch auf Vollständigkeit. Es handelt sich um eine Momentaufnahme.
+
+### **1.2 Ziele**
 
 Ziele des LZfD-Technologieradars sind:
 
@@ -97,7 +99,7 @@ Ziele des LZfD-Technologieradars sind:
 <!-- Seite 4 -->
 * Unterstützung des Innovations-Managements. (Der LZfD-Technologieradar kann hier nur eine temporäre Lösung sein. Benötigt wird hier ein zukunftsorientierter Emerging Technologies Radar mit breiterem Fokus wie ihn z.B. die Firma Gardner erstellt.)
 
-### **1.3 Gliederung <a name="gliederung"></a>**
+### **1.3 Gliederung**
 
 Technologien werden in die folgenden drei Phasen eingeordnet:
 
@@ -129,18 +131,20 @@ Insgesamt ergibt sich die folgende Gliederung:
 
 Die Kategorien geben eine grobe Orientierung und sind nicht trennscharf.
 
-### **1.4 Aktueller Stand und nächste Schritte <a name="akt-stand"></a>**
+### **1.4 Aktueller Stand und nächste Schritte**
 
-In der aktuellen Fassung gibt der LZfD-Technologieradar ausschließlich die gegenwärtige Meinung des Autors sowie des Verfahrens GDA wieder.<br></br>
-In der Sitzung des LZfD-ArcBoards vom 06.07.2020 wurden die Mitglieder gebeten Kollegen zu benennen, die an einer Mitarbeit interessiert sind, damit zukünftig die Bereiche Entwicklung, Client und Data Center abgedeckt werden können. <br></br>
-Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technologieradars als Webanwendung geprüft. Dadurch soll die zukünftige Pflege und Übersichtlichkeit erleichtert werden. <br></br>
+In der aktuellen Fassung gibt der LZfD-Technologieradar ausschließlich die gegenwärtige Meinung des Autors sowie des Verfahrens GDA wieder.
+
+In der Sitzung des LZfD-ArcBoards vom 06.07.2020 wurden die Mitglieder gebeten Kollegen zu benennen, die an einer Mitarbeit interessiert sind, damit zukünftig die Bereiche Entwicklung, Client und Data Center abgedeckt werden können.
+
+Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technologieradars als Webanwendung geprüft. Dadurch soll die zukünftige Pflege und Übersichtlichkeit erleichtert werden.#
 
 <!-- Seite 3 endet hier -->
 <!-- Seite 4 -->
 
-## **2 Betrieb und Entwicklungsumgebung <a name="betrieb"></a>**
+## **2 Betrieb und Entwicklungsumgebung**
 
-### **2.1 Konzepte und Techniken**<a name="betrieb-konzepte"></a>
+### **2.1 Konzepte und Techniken**
 
 #### **2.1.1 Beobachtungs-Phase**
 
@@ -239,7 +243,7 @@ Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technolo
 <!-- Seite 7 endet hier -->
 <!-- Seite 8 -->
 
-### **2.2 Plattformen <a name="betrieb-plattformen"></a>**
+### **2.2 Plattformen**
 
 #### **2.2.1 Beobachtungs-Phase**
 
@@ -293,7 +297,7 @@ Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technolo
 * Erlaubt die Ausführung von Containern ohne Root-Rechte und erhöht so die Sicherheit. (Aktuell unter SLES 12 SP3 nicht möglich.)
 * Netzwerk-Utilities scheinen noch nicht so gut entwickelt wie bei Docker (z.B. fehlende Out-Of-The-Box-Bridges)
 
-### **2.3 Werkzeuge und Libraries**<a name="betrieb-werkzeuge"></a>
+### **2.3 Werkzeuge und Libraries**
 
 #### **2.3.1 Beobachtungs-Phase**
 
@@ -357,11 +361,10 @@ Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technolo
 ##### **2.3.3.4 SonarQube**
 
 * Werkzeug für statische Code-Analyse zur Verbesserung der Code-Qualität und Sicherheit
-<br></br>
 
-## **3 Entwicklung**<a name="entwicklung"></a>
+## **3 Entwicklung**
 
-### **3.1 Konzepte und Techniken**<a name="entwicklung-konzepte"></a>
+### **3.1 Konzepte und Techniken**
 
 #### **3.1.1 Beobachtungs-Phase**
 
@@ -478,7 +481,7 @@ Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technolo
 * Seiteneffektfreie Funktionen liefern für die gleiche Eingabe immer das gleiche Ergebnis. Das erleichtert die Analyse und verhindert Fehler insbesondere in nebenläufigen Prozessen.
 * Ein funktionaler Programmierstil führt zu einer höheren Wartbarkeit und weniger Fehlern. Das Programmierparadigma soll daher möglichst häufig genutzt werden.
 
-### **3.2 Sprachen und Frameworks**<a name="entwicklung-sprachen"></a>
+### **3.2 Sprachen und Frameworks**
 
 #### **3.2.1 Beobachtungs-Phase**
 
@@ -635,7 +638,7 @@ Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technolo
 * Die statische Typisierung führt zu besser dokumentiertem Code, hilft Fehler bereits zur Compile-Zeit zu entdecken und sorgt für bessere IDE-Unterstützung.
 * TypeScript-Code wird durch den TypeScript-Compiler in JavaScript-Code übersetzt.
 
-### **3.3 Werkzeuge und Libraries**<a name="entwicklung-werkzeuge"></a>
+### **3.3 Werkzeuge und Libraries**
 
 #### **3.3.1 Beobachtungs-Phase**
 
@@ -744,11 +747,9 @@ Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technolo
 
 * Java Library für Funktionale Programmierung
 
-<br></br>
-
 ## **4 Requirements Engineering**
 
-### **4.1 Konzepte und Techniken**<a name="req-engineering-konzepte"></a>
+### **4.1 Konzepte und Techniken**
 
 #### **4.1.1 Beobachtungs-Phase**
 
