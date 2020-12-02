@@ -2,7 +2,7 @@
 
 <!--![OFD-Logo](ofd.jpeg)-->
 <!--![LZfD-Logo](lzfd.jpeg)-->
-# <center>LZfD-Technologieradar</center>
+# LZfD-Technologieradar
 
 
 |                      | |
@@ -13,6 +13,7 @@
 | Version | 0.0.1 |
 | Vertraulichkeitsklasse | TLP:GREEN |
 | Dokumentenart | *Wählen Sie ein Element aus* |
+
 <br></br>
 <!--Seite 1 endet hier-->
 <!-- Seite 2 -->
@@ -41,11 +42,12 @@
 |WDSL|Web Services Description Language|
 |YAML|YAML Ain’t Markup Language|
 |ZAK|Zielarchitektur KONSENS|
+
 <br></br>
 
 ## Begriffsverzeichnis
 
-Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des Informationssicherheitsbeauftragten ein zentrales Begriffsverzeichnis (Glossar) geführt. Diese Begriffsbestimmungen sind verbindlich.<br></br>
+Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des Informationssicherheitsbeauftragten ein zentrales Begriffsverzeichnis (Glossar) geführt. Diese Begriffsbestimmungen sind verbindlich. <br></br>
 
 ## Abbildungsverzeichnis
 
@@ -750,6 +752,7 @@ Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technolo
 ##### **3.3.3.11 Vavr**
 
 * Java Library für Funktionale Programmierung
+
 <br></br>
 
 ## **4 Requirements Engineering**<a name="req-engineering"></a>
