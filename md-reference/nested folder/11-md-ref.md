@@ -1,4 +1,4 @@
-# Links between nested files
+# [Links between nested files](#links-between-nested-files)
 
 ## Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 
