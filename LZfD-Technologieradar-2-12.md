@@ -788,12 +788,12 @@ Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technolo
 <!-- Seite 19 endet hier -->
 <!-- Seite 20 -->
 
-##### 4.1.1.7 User Story Mapping
+##### **4.1.1.7 User Story Mapping**
 
 * Flache Backlogs werden schnell unübersichtlich.
 * User Story Maps visualisieren die Zusammenhänge zwischen User Stories, der Reihenfolge ihrer Verwendung durch den Anwender sowie den Epics und Features.
 
-##### 4.1.1.8 Wireframes
+##### **4.1.1.8 Wireframes**
 
 * Wireframes zeigen die grobe Anordnung der Elemente einer graphischen Oberfläche und demonstrieren die Benutzerführung. Auf das konkrete Design der Oberfläche wird noch kein Wert gelegt.  
 * Wireframes sind schnell erstellt und können leicht verändert werden. Sie helfen bei der Abstimmung mit fachlichen Stakeholdern und der Diskussion im Team.
