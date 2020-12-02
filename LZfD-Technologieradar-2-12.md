@@ -63,7 +63,7 @@ Für die Dokumente des ISMS des LZfD wird im LZfD-Intranet auf den Seiten des In
     1. [Zusammenfassung](#11-überblick) <!-- Überblick in der Text-->
     2. [Ziele](#12-ziele)
     3. [Gliederung](#13-gliederung)
-    4. [Aktueller Stand und nächste Schritte](#14-aktueller-stand)
+    4. [Aktueller Stand und nächste Schritte](#14-aktueller-stand-und-nächste-schrtte)
 
 2. [Betrieb und Entwicklungsumgebung](#2-betrieb)
     1. [Konzepte und Techniken](#21-konzepte-und-techniken)
