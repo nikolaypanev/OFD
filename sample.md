@@ -12,6 +12,15 @@
 
 ###### Heading 6
 
+<!-- alternative Header
+
+  Alt-H1
+  ======
+
+  Alt-H2
+  ------
+
+-->
 <!-- Italic -->
 
 *This text* is italic
@@ -52,8 +61,8 @@ This text is ~~strikethrough~~
 <!-- Ordered List -->
 
 1. Item 1
-1. Item 2
-1. Item 3
+2. Item 2
+3. Item 3
 
 <!-- Inline codeblock -->
 
