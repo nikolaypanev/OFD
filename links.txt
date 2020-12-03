@@ -1,0 +1,19 @@
+Pandoc: 
+https://pandoc.org/index.html
+
+Merge multiple .md files:
+https://stackoverflow.com/questions/4779582/markdown-and-including-multiple-files
+
+markdown anchoring:
+https://stackoverflow.com/questions/6695439/how-to-link-to-a-named-anchor-in-multimarkdown
+https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents?page=1&tab=votes#tab-top
+
+Markdown Cheat Sheet:
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+markdownlint source:
+https://github.com/DavidAnson/markdownlint
+
+markdown-include source (alternative to Pandoc?):
+https://github.com/sethen/markdown-include#compile-your-markdown-files
+
