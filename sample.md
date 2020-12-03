@@ -18,6 +18,12 @@
 
 This text is _italic_
 
+<!-- Bold + italic -->
+
+**This text is bold *with italic* in the middle**
+
+*This text is italic **with bold** in the middle*
+
 <!-- Strikethrough -->
 
 This text is ~~strikethrough~~
@@ -55,7 +61,9 @@ This text is ~~strikethrough~~
 
 <!-- Images -->
 
-![Markdown Logo](https://markdown-here/img/icon256.png)
+![LZfD](lzfd.jpg)
+
+![OFD](ofd.jpg)
 
 <!-- Github Markdown -->
 
