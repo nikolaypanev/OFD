@@ -382,3 +382,7 @@
 #### **3.3.3.11 Vavr**
 
 * Java Library für Funktionale Programmierung
+
+[Zurück nach oben](03-entwicklung.md#3-entwicklung)
+
+[Zurück zum Inhaltsverzeichnis](00-inhaltsverzeichnis.md#inhaltsverzeichnis)

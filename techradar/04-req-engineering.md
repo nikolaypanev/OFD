@@ -61,3 +61,7 @@
 
 * Qualitätsszenarien sind kurze, beispielhafte, aktiv formulierte und für fachliche Stakeholder verständliche Beschreibungen der geforderten Qualitätsmerkmale (Nichtfunktionale Anforderungen).
 * Qualitätsszenarien helfen bei der Diskussion, der Priorisierung von Anforderungen und der Bewertung von Architekturen.
+
+[Zurück nach oben](04-req-engineering.md#4-requirements-engineering)
+
+[Zurück zum Inhaltsverzeichnis](00-inhaltsverzeichnis.md#inhaltsverzeichnis)
