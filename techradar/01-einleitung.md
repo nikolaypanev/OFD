@@ -56,3 +56,7 @@ In der aktuellen Fassung gibt der LZfD-Technologieradar ausschließlich die gege
 In der Sitzung des LZfD-ArcBoards vom 06.07.2020 wurden die Mitglieder gebeten Kollegen zu benennen, die an einer Mitarbeit interessiert sind, damit zukünftig die Bereiche Entwicklung, Client und Data Center abgedeckt werden können.
 
 Im Rahmen einer Ausbildungsaufgabe  wird aktuell die Umsetzung des LZfD-Technologieradars als Webanwendung geprüft. Dadurch soll die zukünftige Pflege und Übersichtlichkeit erleichtert werden.
+
+[Zurück nach oben](01-einleitung.md#1-einleitung)
+
+[Zurück zum Inhaltsverzeichnis](00-inhaltsverzeichnis.md#inhaltsverzeichnis)
