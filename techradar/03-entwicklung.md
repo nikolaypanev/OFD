@@ -1,5 +1,20 @@
 # **3 Entwicklung**
 
+## Schnellnavigation
+
+* [Konzepte und Techniken](03-entwicklung.md#31-konzepte-und-techniken)
+  * [Beobachtungsphase](03-entwicklung.md#311-beobachtungs-phase)
+  * [Evaluationsphase](03-entwicklung.md#312-evaluations-phase)
+  * [Nutzungsphase](03-entwicklung.md#313-nutzungs-phase)
+* [Sprachen und Frameworks](03-entwicklung.md#32-sprachen-und-frameworks)
+  * [Beobachtungsphase](03-entwicklung.md#321-beobachtungs-phase)
+  * [Evaluationsphase](03-entwicklung.md#322-evaluations-phase)
+  * [Nutzungsphase](03-entwicklung.md#323-nutzungs-phase)
+* [Werkzeuge und Libraries](03-entwicklung.md#33-werkzeuge-und-libraries)
+  * [Beobachtungsphase](03-entwicklung.md#331-beobachtungs-phase)
+  * [Evaluationsphase](03-entwicklung.md#332-evaluations-phase)
+  * [Nutzungsphase](03-entwicklung.md#333-nutzungs-phase)
+
 ## **3.1 Konzepte und Techniken**
 
 ### **3.1.1 Beobachtungs-Phase**
@@ -108,6 +123,8 @@
 * Programmierparadigma , das auf Funktionen ohne Seiteneffekte setzt.
 * Seiteneffektfreie Funktionen liefern für die gleiche Eingabe immer das gleiche Ergebnis. Das erleichtert die Analyse und verhindert Fehler insbesondere in nebenläufigen Prozessen.
 * Ein funktionaler Programmierstil führt zu einer höheren Wartbarkeit und weniger Fehlern. Das Programmierparadigma soll daher möglichst häufig genutzt werden.
+
+[Zurück nach oben](03-entwicklung.md#3-entwicklung)
 
 ## **3.2 Sprachen und Frameworks**
 
@@ -253,6 +270,8 @@
 * Auf JavaScript basierende Programmiersprache mit Unterstützung für statische Typisierung.
 * Die statische Typisierung führt zu besser dokumentiertem Code, hilft Fehler bereits zur Compile-Zeit zu entdecken und sorgt für bessere IDE-Unterstützung.
 * TypeScript-Code wird durch den TypeScript-Compiler in JavaScript-Code übersetzt.
+
+[Zurück nach oben](03-entwicklung.md#3-entwicklung)
 
 ## **3.3 Werkzeuge und Libraries**
 
