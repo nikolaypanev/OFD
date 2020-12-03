@@ -24,13 +24,13 @@
     2. [Plattformen](02-betrieb-und-entwicklungsumgebung.md#22-plattformen)
     3. [Werkzeuge und Libraries](02-betrieb-und-entwicklungsumgebung.md#23-werkzeuge-und-libraries)
 
-3. [Entwicklung](#3-entwicklung)
-    1. [Konzepte und Techniken](#31-konzepte-und-techniken)
-    2. [Sprachen und Frameworks](#32-sprachen-und-frameworks)
-    3. [Werkzeuge und Libraries](#33-werkzeuge-und-libraries)
+3. [Entwicklung](03-entwicklung.md#3-entwicklung)
+    1. [Konzepte und Techniken](03-entwicklung.md#31-konzepte-und-techniken)
+    2. [Sprachen und Frameworks](03-entwicklung.md#32-sprachen-und-frameworks)
+    3. [Werkzeuge und Libraries](03-entwicklung.md#33-werkzeuge-und-libraries)
 
-4. [Requirements Engineering](#4-requirements-engineering)
-    1. [Konzepte und Techniken](#41-konzepte-und-techniken)
+4. [Requirements Engineering](04-req-engineering.md#4-requirements-engineering)
+    1. [Konzepte und Techniken](04-req-engineering.md#41-konzepte-und-techniken)
 
 ## Abkürzungsverzeichnis
 
