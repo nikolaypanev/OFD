@@ -1,5 +1,11 @@
 # **4 Requirements Engineering**
 
+## Schnellnavigation
+
+* [Konzepte und Techniken](04-req-engineering.md#41-konzepte-und-techniken)
+  * [Beobachtungsphase](04-req-engineering.md#411-beobachtungs-phase)
+  * [Nutzungsphase](04-req-engineering.md#412-nutzungs-phase)
+
 ## **4.1 Konzepte und Techniken**
 
 ### **4.1.1 Beobachtungs-Phase**
