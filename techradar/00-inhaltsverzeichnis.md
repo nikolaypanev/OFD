@@ -34,28 +34,28 @@
 
 ## Abkürzungsverzeichnis
 
-| Abkürzung | Erläuterung |
-|:----------|:------------|
-|CPSA       |Certified Professional for Softwarearchitecture|
-|CNCF       |Cloud Native Computing Foundation|
-|DB         |Datenbank|
-|DOM        |Document Object Model|
-|DSL        |Domain Specific Language|
-|IDE        |Integrated Development Environment|
-|ISAQB      |International Software Architecture Quality Board|
-|JDBC       |Java Database Connectivity|
-|JSON       |JavaScript Object Notation|
-|JVM        |Java Virtuelle Maschine|
+| Abkürzung |                             Erläuterung                                 |
+|:----------|:------------------------------------------------------------------------|
+|CPSA       |Certified Professional for Softwarearchitecture                          |
+|CNCF       |Cloud Native Computing Foundation                                        |
+|DB         |Datenbank                                                                |
+|DOM        |Document Object Model                                                    |
+|DSL        |Domain Specific Language                                                 |
+|IDE        |Integrated Development Environment                                       |
+|ISAQB      |International Software Architecture Quality Board                        |
+|JDBC       |Java Database Connectivity                                               |
+|JSON       |JavaScript Object Notation                                               |
+|JVM        |Java Virtuelle Maschine                                                  |
 |LZfD       |Landeszentrum für Datenverarbeitung bei der Oberfinanzdirektion Karlsruhe|
-|OWASP      |Open Web Application Security Project|
-|SLES       |Suse Linux Enterprise Server|
-|SSH        |Secure Shell|
-|UI         |User Interface|
-|VCS        |Version Contrl System|
-|VM         |Virtuelle Maschine|
-|WDSL       |Web Services Description Language|
-|YAML       |YAML Ain’t Markup Language|
-|ZAK        |Zielarchitektur KONSENS|
+|OWASP      |Open Web Application Security Project                                    |
+|SLES       |Suse Linux Enterprise Server                                             |
+|SSH        |Secure Shell                                                             |
+|UI         |User Interface                                                           |
+|VCS        |Version Contrl System                                                    |
+|VM         |Virtuelle Maschine                                                       |
+|WDSL       |Web Services Description Language                                        |
+|YAML       |YAML Ain’t Markup Language                                               |
+|ZAK        |Zielarchitektur KONSENS                                                  |
 
 ## Begriffsverzeichnis
 
