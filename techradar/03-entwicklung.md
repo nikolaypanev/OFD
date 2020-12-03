@@ -14,8 +14,6 @@
 * Eine Blockchain ist eine bei mehreren Teilnehmern redundant gespeicherte Liste von Blöcken. Die Blöcke sind über kryptographische Verfahren miteinander verkettet. Neue Blöcke werden zwischen den Teilnehmern über ein verteiltes Konsensus-Verfahren ermittelt.
 * Die Blöcke können z.B. Transaktionen bei der buchführung oder Audit-Logs enthalten.
 * Durch die redundante Speicherung , die Verkettung der Blöcke über kryptographische Verfahren und das verteilte Konsensus-Verfahren ist eine nachträgliche Fälschung der bereits gespeicherten Blöcke nicht möglich.
-<!-- Seite 10 endet hier -->
-<!-- Seite 11 -->
 
 #### **3.1.1.3 Consumer-Driven Contract Testing**
 
@@ -54,9 +52,6 @@
 * Viele PWAs verfolgen einen Offline First Ansatz.
 * Kommunikation über HTTPS ist Voraussetzung für die Nutzung von Service Worker.
 
-<!-- Seite 11 endet hier -->
-<!-- Seite 12 -->
-
 #### **3.1.1.9 Reaktive Programmierung**
 
 * Programmierparadigma für die Arbeit mit asynchronen Datenströmen.
@@ -90,9 +85,6 @@
   * Entwicklung einer Ubiquitären Sprache: Um Missverständnisse zwischen fachlichen Stakeholdern und Entwicklern zu vermeiden müssen im allen Softwareartefakten exakt die gleichen Begriffe wie in der Problemdomäne verwendet werden.
   * Pattern-Katalog: Patterns wie Entities, Value Objects, Aggregates, Factories, Services und Repositories helfen bei der Modellierung.
   * Bounded Context und Strategic DDD: In komplexen Problemdomänen und Softwareprojekten ist die Erstellung eines einzigen allgemeingültigen Modells meist nicht zielführend. Besser ist die Entwicklung mehrerer Modelle, die in ihrem jeweiligen streng abgegrenzten Bounded Context gültig sind. Strategic DDD beschreibt Patterns für die Kommunikation zwischen Bounded Contexts. Dieser Aspekt von DDD ist besonders im Microservice-Umfeld relevant.
-
-<!-- Seite 12 endet hier -->
-<!-- Seite 13 -->
 
 #### **3.1.3.2 Evolutionäre Architekturen**
 
@@ -129,9 +121,6 @@
 * Workflow-Engines verarbeiten BPMN-Modelle und helfen so bei der Automatisierung von Prozessen und der Orchestrierung von Microservices
 * BPMN 2.0 und Camunda als Workflow Engine sind in der KONSENS ZAK 2025 festgelegt.
 
-<!-- Seite 13 endet hier -->
-<!-- Seite 14 -->
-
 #### **3.2.1.2 Eclipse Microprofile**
 
 * Java Spezifikation, die auf Microservices ausgerichtet ist. Basiert auf der Jakarta EE Spezifikation, bzw. ergänzt diese.
@@ -164,9 +153,6 @@
 * Query Sprache sowie ein Runtime Environment für die Verarbeitung der Queries.
 * Unterstützt wird das Lesen, Schreiben und Abonnieren von Daten
 * Keine Ressourcenorientierung wie in REST. Die Daten werden als Graph repräsentiert und können über einen einzelnen Endpoint gelesen, bzw. geändert werden. Dadurch erhält der Client in einer einzelnen Anfrage genau die benötigten Daten
-
-<!-- Seite 14 endet hier -->
-<!-- Seite 15 -->
 
 * Spring Boot Starter für GraphQL existiert.
 
@@ -213,9 +199,6 @@
 * Optimiert für die GralVM.
 * Native Integration mit Docker und Kubernetes.
 * Unterstützt Imperative und Reaktive Programmierung.
-
-<!-- Seite 15 endet hier -->
-<!-- Seite 16 -->
 
 #### **3.2.1.13 RxJava**
 
@@ -265,9 +248,6 @@
 
 * CSS-Präprozessor, der die Erstellung und Pflege von CSS-Stylesheets vereinfacht
 
-<!-- Seite 16 endet hier -->
-<!-- Seite 17 -->
-
 #### **3.2.3.5 TypeScript**
 
 * Auf JavaScript basierende Programmiersprache mit Unterstützung für statische Typisierung.
@@ -315,9 +295,6 @@
 
 * Werkzeug zum Testen und Entwerfen von SOAP, REST und GraphQL APIs
 * Automatisierte Ausführung innerhalb einer CD-Pipeline möglich
-
-<!-- Seite 17 endet hier -->
-<!-- Seite 18 -->
 
 ### **3.3.3 Nutzungs-Phase**
 
@@ -367,9 +344,6 @@
 #### **3.3.3.9 Resilience4j**
 
 * Funktional orientierte Java Library für Fehlertoleranz
-
-<!-- Seite 18 endet hier -->
-<!-- Seite 19 -->
 
 * Circuit Breaker, Bulk Heads, Timeouts usw.
 
