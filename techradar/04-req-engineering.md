@@ -30,9 +30,6 @@
 
 * Ansatz für einen Produkt-Launch mit sehr kurzer Planungs- und Entwicklungsphase und möglichst schnellem messbarem Feedback, das für die nächste Iteration verwendet wird.
 
-<!-- Seite 19 endet hier -->
-<!-- Seite 20 -->
-
 #### **4.1.1.7 User Story Mapping**
 
 * Flache Backlogs werden schnell unübersichtlich.
