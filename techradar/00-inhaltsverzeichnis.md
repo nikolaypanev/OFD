@@ -2,14 +2,14 @@
 <!--![LZfD-Logo](lzfd.jpeg)-->
 # [LZfD-Technologieradar](#lzfd-technologieradar)
 
-|                      | |
-|---------------------------|---------|
-| Dokumentenverantwortlicher | EDV 639 |
-| Angestrebter Revisionszyklus | Kontinuierlich |
-| Bearbeitungsstatus | Entwurf |
-| Version | 0.0.1 |
-| Vertraulichkeitsklasse | TLP:GREEN |
-| Dokumentenart | *Wählen Sie ein Element aus* |
+|                              |                              |
+|------------------------------|------------------------------|
+|  Dokumentenverantwortlicher  |            EDV 639           |
+| Angestrebter Revisionszyklus |        Kontinuierlich        |
+|      Bearbeitungsstatus      |            Entwurf           |
+|           Version            |             0.0.1            |
+|    Vertraulichkeitsklasse    |           TLP:GREEN          |
+|         Dokumentenart        | *Wählen Sie ein Element aus* |
 
 ## [Inhaltsverzeichnis](#inhaltsverzeichnis)
 

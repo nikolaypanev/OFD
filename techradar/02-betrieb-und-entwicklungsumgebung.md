@@ -1,5 +1,20 @@
 # **2 Betrieb und Entwicklungsumgebung**
 
+## Schnellnavigation
+
+* [Konzepte und Techniken](02-betrieb-und-entwicklungsumgebung.md#21-konzepte-und-techniken)
+  * [Beobachtungsphase](02-betrieb-und-entwicklungsumgebung.md#211-beobachtungs-phase)
+  * [Evaluationsphase](02-betrieb-und-entwicklungsumgebung.md#212-evaluationsphase)
+  * [Nutzungsphase](02-betrieb-und-entwicklungsumgebung.md#212-nutzungssphase)
+* [Plattformen](02-betrieb-und-entwicklungsumgebung.md#22-plattformen)
+  * [Beobachtungssphase](02-betrieb-und-entwicklungsumgebung.md#221-beobachtungs-phase)
+  * [Nutzungsphase](02-betrieb-und-entwicklungsumgebung.md#222-nutzungs-phase)
+  * [Evaluationsphase](02-betrieb-und-entwicklungsumgebung.md#232-evaluationsphase)
+* [Werkzeuge und Libraries](02-betrieb-und-entwicklungsumgebung.md#23-werkzeuge-und-libraries)
+  * [Beobachtungsphase](02-betrieb-und-entwicklungsumgebung.md#231-beobachtungs-phase)
+  * [Evaluationsphase](02-betrieb-und-entwicklungsumgebung.md#232-evaluationsphase)
+  * [Nutzungsphase](02-betrieb-und-entwicklungsumgebung.md#233-nutzungs-phase)
+
 ## **2.1 Konzepte und Techniken**
 
 ### **2.1.1 Beobachtungs-Phase**
@@ -70,7 +85,7 @@
 
 * Security wird als explizite Anforderung von Beginn an (Shift Left) in allen Phasen des Entwicklungsprozesses berücksichtigt.
 
-### **2.1.2 Nutzungssphase**
+### **2.1.3 Nutzungssphase**
 
 #### **2.1.3.1 Continuous Delivery (CD)**
 
@@ -90,6 +105,8 @@
 #### **2.1.3.4 Vorgehensmuster für Softwarearchitektur**
 
 * Pattern-Katalog zur Architekturarbeit in agilen Projekten nach einem Buch von Stefan Toth, bzw. einem Modul des International Software Architecture Quality Board (ISAQB) Certified Professional for Software Architecture (CPSA) Advanced Level Lehrplans.
+
+[Zurück nach oben](02-betrieb-und-entwicklungsumgebung.md#2-betrieb-und-entwicklungsumgebung)
 
 ## **2.2 Plattformen**
 
@@ -142,6 +159,8 @@
 * Daemon-less Runtime für die Erstellung und Ausführung OCI-kompatibler Container.
 * Erlaubt die Ausführung von Containern ohne Root-Rechte und erhöht so die Sicherheit. (Aktuell unter SLES 12 SP3 nicht möglich.)
 * Netzwerk-Utilities scheinen noch nicht so gut entwickelt wie bei Docker (z.B. fehlende Out-Of-The-Box-Bridges)
+
+[Zurück nach oben](02-betrieb-und-entwicklungsumgebung.md#2-betrieb-und-entwicklungsumgebung)
 
 ## **2.3 Werkzeuge und Libraries**
 
