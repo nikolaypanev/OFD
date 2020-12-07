@@ -17,3 +17,6 @@ https://github.com/DavidAnson/markdownlint
 markdown-include source (alternative to Pandoc?):
 https://github.com/sethen/markdown-include#compile-your-markdown-files
 
+Liste mit Markdown-Editoren
+https://softwarerecs.stackexchange.com/questions/5746/markdown-editor-for-windows-with-live-rendering-in-the-editing-pane-not-in-a-se
+

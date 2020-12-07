@@ -1,18 +1,18 @@
-<!-- Heading -->
+<!-- Überschrift -->
 
-# Heading 1
+# Überschrift 1
 
-## Heading 2
+## Überschrift 2
 
-### Heading 3
+### Überschrift 3
 
-#### Heading 4
+#### Überschrift 4
 
-##### Heading 5
+##### Überschrift 5
 
-###### Heading 6
+###### Überschrift 6
 
-<!-- alternative Header
+<!-- alternative Schreibweise für Überschrift 1 und 2
 
   Alt-H1
   ======
@@ -21,37 +21,43 @@
   ------
 
 -->
-<!-- Italic -->
+<!-- Kursiv -->
 
 *This text* is italic
 
 This text is _italic_
 
-<!-- Bold + italic -->
+<!-- Fett -->
+
+This text is **bold**
+
+This text is __bold__
+
+<!-- Fett + Kursiv -->
 
 **This text is bold *with italic* in the middle**
 
 *This text is italic **with bold** in the middle*
 
-<!-- Strikethrough -->
+<!-- Durchstreichen -->
 
 This text is ~~strikethrough~~
 
-<!-- Horizontal rule -->
+<!-- Horizontale Linie -->
 
 ---
 
-<!-- Blockquote -->
+<!-- Zitat -->
 > This is a blockquote
 
-<!-- Links -->
+<!-- Link -->
 
 [GitHub](www.github.com)
 
-<!-- Named link -->
-[GitHub](www.github.com "GitHub")
+<!-- Link mit Titel -->
+[GitHub](www.github.com "Visit the GitHub website")
 
-<!-- Unordered List -->
+<!-- Ungeordnete Liste -->
 
 * Item 1
 * Item 2
@@ -59,25 +65,29 @@ This text is ~~strikethrough~~
   * Nested Item 1
   * Nested Item 2
 
-<!-- Ordered List -->
+<!-- Geordnete Liste -->
 
 1. Item 1
 2. Item 2
+   1. Nested Item 1
+   2. Nested Item 2
 3. Item 3
 
-<!-- Inline codeblock -->
+<!-- Inline Quellcode -->
 
 `<p>This is a [paragraph]</p>`
 
 `npm install`
 
-<!-- Images -->
+<!-- Bilder -->
+<!-- Auch hier kann man ein Titel angeben -->
 
 ![LZfD](lzfd.jpg)
 
 ![OFD](ofd.jpg)
 
-<!-- Codeblocks -->
+<!-- Codeblöcke -->
+<!-- Gibt man auch die Programmiersprache an, wird spezielles Highlighting angezeigt  -->
 ```bash
 npm install
 npm start
@@ -94,13 +104,16 @@ def add(num1, num2):
     return num1 + num2
 ```
 
-<!-- Tables -->
+<!-- Tabellen -->
+<!-- :--- Text ist linksbündig  -->
+<!-- :--: Text ist zentriert -->
+<!-- ---: Text ist rechtsbündig -->
 |Column 1 heading|Column 2 heading | Column 3 heading|
 |:---------------|:---------------:|----------------:|
 |left aligned    |    centered     |    right aligned|
 |sample text     |   sample text   |      sample text|
 
-<!-- Task list -->
+<!-- einfache To-Do-Liste -->
 
 * [x] Task 1
 * [x] Task 2
