@@ -12,26 +12,13 @@
 
 ###### Überschrift 6
 
-<!-- alternative Schreibweise für Überschrift 1 und 2
-
-  Alt-H1
-  ======
-
-  Alt-H2
-  ------
-
--->
 <!-- Kursiv -->
 
-*This text* is italic
-
-This text is _italic_
+This text is *italic*
 
 <!-- Fett -->
 
 This text is **bold**
-
-This text is __bold__
 
 <!-- Fett + Kursiv -->
 
