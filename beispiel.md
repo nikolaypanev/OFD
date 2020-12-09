@@ -67,11 +67,11 @@ This text is ~~strikethrough~~
 `npm install`
 
 <!-- Bilder -->
-<!-- Auch hier kann man ein Titel angeben -->
+<!-- Auch hier kann man ein Titel angeben (optional) -->
 
-![LZfD](lzfd.jpg)
+![LZfD](lzfd.jpg "Titel für LZfD-Logo")
 
-![OFD](ofd.jpg)
+![OFD](ofd.jpg "Titel für OFD-Logo ")
 
 <!-- Codeblöcke -->
 <!-- Gibt man auch die Programmiersprache an, wird spezielles Highlighting angezeigt  -->
