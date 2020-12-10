@@ -26,11 +26,15 @@
 * Reverse Proxy, mit unterschiedlichen Funktionen wie z.B. Protokollübersetzung, Modellübersetzung, Fassaden für mehrere Microservices, Authorisierung, Rate Limiting, Caching usw..
 * Einschätzung: Thought Works Technology Radar warnt vor überambitionierten API Gateways.
 
+[RedHat](https://www.redhat.com/en/topics/api/what-does-an-api-gateway-do)
+
 #### **3.1.1.2 Blockchain**
 
 * Eine Blockchain ist eine bei mehreren Teilnehmern redundant gespeicherte Liste von Blöcken. Die Blöcke sind über kryptographische Verfahren miteinander verkettet. Neue Blöcke werden zwischen den Teilnehmern über ein verteiltes Konsensus-Verfahren ermittelt.
 * Die Blöcke können z.B. Transaktionen bei der buchführung oder Audit-Logs enthalten.
 * Durch die redundante Speicherung , die Verkettung der Blöcke über kryptographische Verfahren und das verteilte Konsensus-Verfahren ist eine nachträgliche Fälschung der bereits gespeicherten Blöcke nicht möglich.
+
+[Wikipedia](https://de.wikipedia.org/wiki/Blockchain)
 
 #### **3.1.1.3 Consumer-Driven Contract Testing**
 
@@ -38,10 +42,18 @@
 * Consumer spezifiziert Contract in Form von Tests. Frameworks wie Pact ermöglichen zum einen die Ausführung der Tests in der CD-Pipeline des Consumers durch Bereitstellung eines Mocks. Zum anderen werden Tests gegen die tatsächliche Schnittstelle generiert, die in der CD-Pipeline des Providers genutzt werden können.
 * Vorteile: Der Consumer erhält genau die benötigte Schnittstelle. Der Provider weiß exakt, welche Teile der Schnittstelle wie genutzt werden.
 
-#### *3.1.1.4 Künstliche Intelligenz (KI)*
+#### **3.1.1.4 Künstliche Intelligenz (KI)**
 
 * Maschinelles Lernen, Deep Learning usw.
 * Frameworks: Deeplearning4j, Keras, PyTorch, TensorFlow, scikit-learn usw.
+
+[KI-Hauptartikel](https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz#Wissensbasierte_Systeme)
+
+[Machine Learning](https://de.wikipedia.org/wiki/Maschinelles_Lernen)
+
+[Deep Learning](https://de.wikipedia.org/wiki/Deep_Learning)
+
+[IBM-Artikel](https://www.ibm.com/cloud/learn/machine-learning)
 
 #### **3.1.1.5 Event-getriebene Architekturen**
 
@@ -49,6 +61,12 @@
 * Führt zu sehr loser Kopplung der einzelnen Systemkomponenten.
 * Führt zu hoher Komplexität des Gesamtsystems.
 * Ereignisse können als Messages publiziert werden.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Event-driven_architecture)
+
+[RedHat](https://www.redhat.com/en/topics/integration/what-is-event-driven-architecture)
+
+[AWS](https://aws.amazon.com/event-driven-architecture/#:~:text=What%20is%20an%20Event%2DDriven%20Architecture%3F&text=An%20event%2Ddriven%20architecture%20uses,on%20an%20e%2Dcommerce%20website.)
 
 #### **3.1.1.6 Micro Frontends**
 
@@ -60,6 +78,10 @@
 
 * Datenanken, die einen nicht-relationalen Ansatz verfolgen.
 
+[Wikipedia-en](https://en.wikipedia.org/wiki/NoSQL)
+
+[Azure-de](https://azure.microsoft.com/de-de/overview/nosql-database/)
+
 #### **3.1.1.8 Progressive Web Apps (PWA)**
 
 * PWAs sind Web Apps, die wie native Apps  auf dem Desktop oder mobilen Endgerät installiert werden können und ein vergleichbares Erlebnis bieten.
@@ -69,11 +91,19 @@
 * Viele PWAs verfolgen einen Offline First Ansatz.
 * Kommunikation über HTTPS ist Voraussetzung für die Nutzung von Service Worker.
 
+[Wikipedia-de](https://de.wikipedia.org/wiki/Progressive_Web_App)
+
+[Webdev](https://web.dev/progressive-web-apps/)
+
 #### **3.1.1.9 Reaktive Programmierung**
 
 * Programmierparadigma für die Arbeit mit asynchronen Datenströmen.
 * Ermöglicht nicht blockierende Server und Client Anwendungen.
 * Reaktive Programmierung kann auf Implementierungsebene bei der Umsetzung Reaktiver Systeme eingesetzt werden.
+
+[Wikipedia-de](https://de.wikipedia.org/wiki/Reaktive_Programmierung#:~:text=Bei%20der%20Datenverarbeitung%20ist%20Reaktive,%C3%84nderungen%20in%20den%20Datenfl%C3%BCssen%20automatisch.)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/Reactive_programming)
 
 ### **3.1.2 Evaluations-Phase**
 
@@ -93,6 +123,8 @@
   * Elastisch: Das System reagiert auf unterschiedliche Lastanforderungen.
   * Message-Driven: Die Komponenten des Systems kommunizieren asynchron über Nachrichten.
 
+[Wikipedia](https://de.wikipedia.org/wiki/Reaktives_System_(Informatik))
+
 ### **3.1.3 Nutzungs-Phase**
 
 #### **3.1.3.1 Domain Driven Design (DDD)**
@@ -102,6 +134,8 @@
   * Entwicklung einer Ubiquitären Sprache: Um Missverständnisse zwischen fachlichen Stakeholdern und Entwicklern zu vermeiden müssen im allen Softwareartefakten exakt die gleichen Begriffe wie in der Problemdomäne verwendet werden.
   * Pattern-Katalog: Patterns wie Entities, Value Objects, Aggregates, Factories, Services und Repositories helfen bei der Modellierung.
   * Bounded Context und Strategic DDD: In komplexen Problemdomänen und Softwareprojekten ist die Erstellung eines einzigen allgemeingültigen Modells meist nicht zielführend. Besser ist die Entwicklung mehrerer Modelle, die in ihrem jeweiligen streng abgegrenzten Bounded Context gültig sind. Strategic DDD beschreibt Patterns für die Kommunikation zwischen Bounded Contexts. Dieser Aspekt von DDD ist besonders im Microservice-Umfeld relevant.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Domain-driven_design)
 
 #### **3.1.3.2 Evolutionäre Architekturen**
 
@@ -113,6 +147,8 @@
   * eine möglichst lose Kopplung der einzelnen Komponenten
   * und Fitness Funktionen, die die Einhaltung der geforderten Qualitätsmerkmale bei jeder Änderung sicherstellen.
 
+[Wikipedia](https://en.wikipedia.org/wiki/Continuous_design)
+
 #### **3.1.3.3 Feature Toggles**
 
 * Ermöglicht das Aktivieren und Deaktivieren von Features zur Laufzeit.
@@ -120,11 +156,17 @@
 * Einfache Feature Toggles werden über simple If-Anweisungen oder Conditional Spring Beans realisiert
 * Es existieren aber inzwischen auch eine ganze Reihe von Feature Flag Management Systeme wie ConfigCat oder LaunchDarkly, die produktiv eingesetzt werden, um A/B-Tests oder Feature-Tests für bestimmte Benutzersegmente durchzuführen.
 
+[Wikipedia](https://en.wikipedia.org/wiki/Feature_toggle)
+
 #### **3.1.3.4 Funktionale Programmierung**
 
 * Programmierparadigma , das auf Funktionen ohne Seiteneffekte setzt.
 * Seiteneffektfreie Funktionen liefern für die gleiche Eingabe immer das gleiche Ergebnis. Das erleichtert die Analyse und verhindert Fehler insbesondere in nebenläufigen Prozessen.
 * Ein funktionaler Programmierstil führt zu einer höheren Wartbarkeit und weniger Fehlern. Das Programmierparadigma soll daher möglichst häufig genutzt werden.
+
+[Wikipedia-de](https://de.wikipedia.org/wiki/Funktionale_Programmierung)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/Functional_programming)
 
 [Zurück nach oben](03-entwicklung.md#3-entwicklung)
 
@@ -140,10 +182,14 @@
 * Workflow-Engines verarbeiten BPMN-Modelle und helfen so bei der Automatisierung von Prozessen und der Orchestrierung von Microservices
 * BPMN 2.0 und Camunda als Workflow Engine sind in der KONSENS ZAK 2025 festgelegt.
 
+[Wikipedia-en](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation)
+
 #### **3.2.1.2 Eclipse Microprofile**
 
 * Java Spezifikation, die auf Microservices ausgerichtet ist. Basiert auf der Jakarta EE Spezifikation, bzw. ergänzt diese.
 * Ziel ist die Portabilität auf verschiedene Laufzeitumgebungen. Quarkus z.B. ist Microprofile kompatibel.
+
+[Wikipedia-de](https://de.wikipedia.org/wiki/MicroProfile)
 
 #### **3.2.1.3 Go**
 
@@ -151,6 +197,8 @@
 * Unterstützt nicht klassenbasierte Objektorientierung (stattdessen werden Typerweiterungen benutzt)
 * Intelligente Garbage Collection
 * Eignet sich gut für Server- und Cloud-Software
+
+[Go-Homepage](https://golang.org/)
 
 #### **3.2.1.4 gRPC**
 
@@ -160,6 +208,10 @@
 * Vorteile sind eine hohe Performanz durch schnelle Serialisierung und kleine Nachrichten, Support für Streaming und gute Unterstützung für Timeouts.
 * gRPC ist gut für die Kommunikation zwischen Microservices geeignet, bietet aber derzeit noch keine Browserunterstützung.
 
+[gRPC-Homepage](https://grpc.io/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/GRPC)
+
 #### **3.2.1.5 GralVM**
 
 * Polyglotte virtuelle Maschine von Oracle auf der prinzipiell jede Programmiersprache ausgeführt werden kann. Bisher werden Bytecode erzeugende Programmiersprachen wie Java 8, Scala, Closure usw. sowie R, Ruby und C++ unterstützt. Programmiersprachen können in einem Programm kombiniert werden.
@@ -167,13 +219,20 @@
 * Die GralVM ermöglicht das Erstellen von Native Binaries. Dadurch kann die Startzeit deutlich beschleunigt und der Speicherverbrauch minimiert werden.
 * Herzstück der GralVM ist der Gral Compiler. Die GralVM basiert auf dem Open JDK und ersetzt dort den C2 JIT Compiler. Aufgabe des JIT Compilers ist es während der Ausführung des Codes diesen zu optimieren.
 
+[Wikipedia-en](https://en.wikipedia.org/wiki/GraalVM)
+
+[GralVM-Homepage](https://www.graalvm.org/)
+
 #### **3.2.1.6 GraphQL**
 
 * Query Sprache sowie ein Runtime Environment für die Verarbeitung der Queries.
 * Unterstützt wird das Lesen, Schreiben und Abonnieren von Daten
 * Keine Ressourcenorientierung wie in REST. Die Daten werden als Graph repräsentiert und können über einen einzelnen Endpoint gelesen, bzw. geändert werden. Dadurch erhält der Client in einer einzelnen Anfrage genau die benötigten Daten
-
 * Spring Boot Starter für GraphQL existiert.
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/GraphQL)
+
+[GraphQL-Homepage](https://graphql.org/)
 
 #### **3.2.1.7 IBM Equal Access Toolkit**
 
