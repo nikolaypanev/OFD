@@ -168,7 +168,11 @@
 
 [Wikipedia-en](https://en.wikipedia.org/wiki/Functional_programming)
 
+__________________________________________________________________
+
 [Zurück nach oben](03-entwicklung.md#3-entwicklung)
+
+__________________________________________________________________
 
 ## **3.2 Sprachen und Frameworks**
 
@@ -240,11 +244,15 @@
   * Guidelines: Diese helfen allen Mitgliedern des Teams (Product Owner, Designer, Entwickler Tester usw.)  Barrierefreiheit in allen Phasen des Entwicklungszyklus zu berücksichtigen.
   * Accessibility Checker: Browser-Plugins, die bei der automatisierten Überprüfung der Barrierefreiheit und Berichterstellung unterstützen.
 
+[Toolkit-Homepage](https://www.ibm.com/able/toolkit)
+
 #### **3.2.1.8 MicroNaut**
 
 * Java Framework mit geringem Speicherverbrauch und kürzerer Startzeit. Erreicht wird beides durch Dependency Injection zur Compile-Zeit.
 * Intern wird ein Netty verwendet.
 * Reaktive Programmierung wird explizit unterstützt.
+
+[MicroNaut-Homepage](https://micronaut.io/)
 
 #### **3.2.1.9 PostgreSQL**
 
@@ -258,17 +266,31 @@
 * Es  fallen keine Lizenz-Kosten an.
 * PostgreSQL wird in der ZAK 2025 neben der Oracle DB als erlaubtes DBMS genannt.
 
+[PostgreSQL Homepage](https://www.postgresql.org/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/PostgreSQL)
+
+[Wikipedia-de](https://de.wikipedia.org/wiki/PostgreSQL)
+
 #### **3.2.1.10 Project Reactor**
 
 * Framework für Reaktive Programmierung
 * Basis für den Reaktive Stack in Spring mit Spring Web Flux usw.
 * Einschätzung: Baldige Evaluation im Rahmen der Anbindung von NaDien.
 
+[Project Reactor Homepage](https://projectreactor.io/)
+
 #### **3.2.1.11 Python**
 
 * Beliebte, dynamisch typisierte, leicht zu erlernende Programmiersprache.
 * Schwächen von Python sind die Performanz und die Unterstützung mehrerer Prozessoren.
 * Python ist im KI-Umfeld weit verbreitet.
+
+[Python Homepage](https://www.python.org/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+[Python-Anleitung für Anfänger](https://www.w3schools.com/python/default.asp)
 
 #### **3.2.1.12 Quarkus**
 
@@ -278,10 +300,16 @@
 * Native Integration mit Docker und Kubernetes.
 * Unterstützt Imperative und Reaktive Programmierung.
 
+[Quarkus-Homepage](https://quarkus.io/)
+
+[Kurzer Übersicht auf RedHat](https://www.redhat.com/en/topics/cloud-native-apps/what-is-quarkus)
+
 #### **3.2.1.13 RxJava**
 
 * Bibliothek für Reaktive Programmierung
 * Basiert auf den von Microsoft entwickelten Reactive Extensions (Rx).
+
+[RxJava-Homepage](http://reactivex.io/)
 
 #### **3.2.1.14 Web Assembly**
 
@@ -290,11 +318,19 @@
 * Verspricht bessere Performanz als JavaScript.
 * Bisherige APIs noch sehr eingeschränkt. Erweiterungen sind geplant.
 
+[Wikipedia-en](https://en.wikipedia.org/wiki/WebAssembly)
+
+[Web Assembly Homepage](https://webassembly.org/)
+
 #### **3.2.1.15 Web Components**
 
 * Webkomponenten sind eine Gruppe von Web-Technologien, die es ermöglichen, benutzerdefinierte, wiederverwendbare HTML Elemente zu erstellen. Deren Funktionalität ist gekapselt und vom  Rest der Seite isoliert.
 * Basiert auf Custom Elements, Shadow DOM und HTML Templates.
 * Einschätzung: Aktuell uninteressant
+
+[Web Components Homepage](https://www.webcomponents.org/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/Web_Components)
 
 ### **3.2.2 Evaluations-Phase**
 
@@ -304,11 +340,17 @@
 * Fokusiert auf Einfachheit und verzichtet dafür auf einige von der Java Persistence API (JPA) bekannte Features wie Caching, Lazy Loading usw..
 * Aktuell keine offizielle Unterstützung für Oracle DBs.
 
+[Spring Data JDBC Überblick](https://spring.io/projects/spring-data-jdbc#overview)
+
 ### **3.2.3 Nutzungs-Phase**
 
 #### **3.2.3.1 React**
 
 * JavaScript-Library für das Erstellen von User Interfaces.
+
+[React Homepage](https://reactjs.org/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/React_(web_framework))
 
 #### **3.2.3.2 RESTful HTTP APIs**
 
@@ -318,13 +360,23 @@
   * Starke Fokusierung auf die Einhaltung der REST-Prinzipien, insbesondere wenn es um HATEOAS geht eher hinderlich.
   * http APIs sind in fast jeder Hinsicht eine bessere Alternative zu SOAP
 
+[Wikipedia-en](https://en.wikipedia.org/wiki/Representational_state_transfer)
+
+[Kurze Anleitung zur RESTful APIs](https://restfulapi.net/)
+
 #### **3.2.3.3 Spring Boot**
 
 * Java Application Framework
 
+[Spring Boot Homepage](https://spring.io/projects/spring-boot)
+
 #### **3.2.3.4 SCSS**
 
 * CSS-Präprozessor, der die Erstellung und Pflege von CSS-Stylesheets vereinfacht
+
+[Erklärung der Unterschied zwischen SCSS und SASS](https://nextgeneration.mysign.ch/de/themen/wissen/frontend-entwicklung/scss-sass.html#:~:text=Der%20Unterschied%20ist%20nicht%20gross,CSS%20und%20ist%20deutlich%20%C3%BCbersichtlicher.)
+
+[SCSS Syntax Anleitung](https://sass-lang.com/documentation/syntax)
 
 #### **3.2.3.5 TypeScript**
 
@@ -332,7 +384,16 @@
 * Die statische Typisierung führt zu besser dokumentiertem Code, hilft Fehler bereits zur Compile-Zeit zu entdecken und sorgt für bessere IDE-Unterstützung.
 * TypeScript-Code wird durch den TypeScript-Compiler in JavaScript-Code übersetzt.
 
+[TypeScript Homepage](https://www.typescriptlang.org/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/TypeScript)
+
+[Die Beziehung zwischen TypeScript und JavaScript](https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript/35048303#35048303)
+
+__________________________________________________________________
+
 [Zurück nach oben](03-entwicklung.md#3-entwicklung)
+__________________________________________________________________
 
 ## **3.3 Werkzeuge und Libraries**
 
@@ -345,22 +406,36 @@
 * Ermöglicht die Aufzeichnung von automatisierten Tests
 * Hat an Popularität in den letzten Jahren deutlich hinzugewonnen, da die Tests einfacher, schneller und fehlerfreier als in Selenium laufen (z.B. keine expliziten Sleeps und Waits notwendig)
 
+[Cypress Homepage](https://www.cypress.io/)
+
+[Kurze Anleitung zur Cypress](https://dev.to/karkranikhil/cypress-a-testing-tool-for-front-end-developers-7jg)
+
 #### **3.3.1.2 Gatling**
 
 * Werkzeug für Last- und Performanztests
 * Scala-basierte DSL für Lasttest-Skripte
 * Maven- und Gradle-Plugins für Verwendung in CD-Pipeline vorhanden
 
+[Gatling-Homepage](https://gatling.io/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/Gatling_(software))
+
 #### **3.3.1.3 Material UI**
 
 * Komponenten-Bibliothek für React basierend auf dem Google Material Design.
 * Alternative zu React Bootstrap  
+
+[MaterialUI-Homepage](https://material-ui.com/)
 
 #### **3.3.1.4 springdoc-openapi**
 
 * Generiert automatisiert OpenAPI Dokumentation für eine Spring Boot Anwendung.
 * Integriert Swagger UI
 * Kein offizielles Spring Projekt  
+
+[Dokumentation von springcdoc-openapi](https://springdoc.org/)
+
+[GitHub-Repository](https://github.com/springdoc/springdoc-openapi)
 
 #### **3.3.1.5 Thymeleaf**
 
@@ -369,6 +444,10 @@
 * Später können diese Serverseitig mit Daten/Subseiten gefüllt werden
 * Die GDA verwendet aktuell noch Freemarker.
 
+[Thymeleaf-Homepage](https://www.thymeleaf.org/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/Thymeleaf)
+
 ### **3.3.2 Evaluations-Phase**
 
 #### **3.3.2.1 Postman**
@@ -376,11 +455,17 @@
 * Werkzeug zum Testen und Entwerfen von SOAP, REST und GraphQL APIs
 * Automatisierte Ausführung innerhalb einer CD-Pipeline möglich
 
+[Postman-Homepage](https://www.postman.com/)
+
 ### **3.3.3 Nutzungs-Phase**
 
 #### **3.3.3.1 Antlr**
 
 * Ein objektorientierter Parsergenerator, der aus einer Grammatik ausführbaren Code erzeugt.
+
+[Antlr-Homepage](https://www.antlr.org/)  
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/ANTLR)
 
 #### **3.3.3.2 Gradle**
 
@@ -389,16 +474,28 @@
 * Builds sind durch die DSL und den Task-basierten Ansatz leichter an individuelle Bedürfnisse anpassbar.
 * Die GDA stellt aktuell von Maven auf Gradle um.
 
+[Gradle Homepage](https://gradle.org/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/Gradle)
+
+[Wikipedia-de](https://de.wikipedia.org/wiki/Gradle)
+
 #### **3.3.3.3 Jest**
 
 * Von Facebook entwickeltes und gut dokumentiertes Frontend Testtool für jede JavaScript Code-Basis.
 * Wird gerne als Test-Runner zusammen mit Enzyme oder React Testing Library zum Testen für React-Anwendungen verwendet.
+
+[Jest Homepage](https://jestjs.io/)
 
 #### **3.3.3.4 JMeter**
 
 * Werkzeug für Last- und Performanztests
 * Maven-Plugin ermöglicht die Nutzung im Rahmen einer CD-Pipeline.
 * Ausblick: Unübersichtliche XML-Konfigurationsdateien und unkomfortable API führen zu schlechter Wartbarkeit der Tests. Mittelfristig sollten evtl. Alternativen wie Gatling evaluiert werden.
+
+[JMeter Homepage](https://jmeter.apache.org/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/Apache_JMeter)
 
 #### **3.3.3.5 Jsonnet**
 
@@ -407,19 +504,27 @@
   * YAML
   * JSON
 
+[Jsonnet Homepage](https://jsonnet.org/)
+
 #### **3.3.3.6 OWASP Dependency Check**
 
 * Scannt verwendete Fremd-Bibliotheken auf bekannte Schwachstellen
 * Automatisiert im Rahmen eines Maven-Builds nutzbar
+
+[OWASP Homepage](https://owasp.org/www-project-dependency-check/)
 
 #### **3.3.3.7 Project Lombok**
 
 * Java Library, die zur Compile-Zeit automatisch Getter, Setter, Builder usw. generiert.
 * Eclipse Plugin existiert.
 
+[Project Lombok Homepage](https://projectlombok.org/)
+
 #### **3.3.3.8 React Bootstrap**
 
 * Auf dem Bootstrap Frontend Framework aufbauende Komponenten-Library für React
+
+[React Bootstrap Homepage](https://react-bootstrap.github.io/)
 
 #### **3.3.3.9 Resilience4j**
 
@@ -427,15 +532,27 @@
 
 * Circuit Breaker, Bulk Heads, Timeouts usw.
 
+[Resilience4j Dokumentation](https://resilience4j.readme.io/docs/getting-started)
+
+[GitHub-Repository](https://github.com/resilience4j/resilience4j)
+
 #### **3.3.3.10 SoapUI**
 
 * Werkzeug u.a. zum Testen von SOAP APIs
 * Nutzung innerhalb der GDA für WSDL-basierte automatisierte Funktionstests und zum Nachstellen von Fehlersituationen im Support-Bereich.
 * Ausblick: Wartbarkeit der automatisierten Tests sehr schlecht. Aktuell wird Postman als Alternative evaluiert.
 
+[SoapUI Homepage](https://www.soapui.org/)
+
+[Wikipedia-en](https://en.wikipedia.org/wiki/SoapUI)
+
 #### **3.3.3.11 Vavr**
 
 * Java Library für Funktionale Programmierung
+
+[Vavr Homepage](https://www.vavr.io/)
+
+__________________________________________________________________
 
 [Zurück nach oben](03-entwicklung.md#3-entwicklung)
 
