@@ -107,3 +107,19 @@ def add(num1, num2):
 * [ ] Task 3
 
 GitHub Markdown supports the use of emojis. An extensive emoji list can be found [here](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion). The icons wil **not** be shown in the default preview.
+
+[Here](https://gist.github.com/rxaviers/7360908) is another emoji collection.
+
+Mathematical formulae can be constructed with the expressions in [this list](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/). Compatibility may vary. Examples:
+
+Capital PI: $\Pi$
+
+Infinity symbol: $\infty$
+
+Indexed Value: $k_{n+1}$
+
+Binomial term: $k_n^2$
+
+Trigonometric expression: $sin^2$ + $cos^2$ = 1
+
+Integral: $\int_0^\infty \mathrm{e}^{-x},\mathrm{d}x$
