@@ -14,3 +14,13 @@ if (x < 10) {
 } else {
     console.log("x is 10")
 }
+
+function Person(firstName, lastName, birthday) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.birthday = new Date(birthday);
+}
+
+const person1 = new Person('John', 'Doe', '3-4-1980');
+
+console.log(person1.birthday)
