@@ -106,6 +106,4 @@ def add(num1, num2):
 * [x] Task 2
 * [ ] Task 3
 
-Emoji testing
-
-Is your dad a terrorist? Cuz you a :bomb:
+GitHub Markdown supports the use of emojis. An extensive emoji list can be found [here](https://github.com/ikatyang/emoji-cheat-sheet#smileys--emotion). The icons wil **not** be shown in the default preview.
