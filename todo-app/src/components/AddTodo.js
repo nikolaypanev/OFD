@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export class AddTodo extends Component {
     
@@ -12,8 +12,9 @@ export class AddTodo extends Component {
         this.setState({ title: ''})
     }
 
-    // state change by the value entered in the input field
-    onChange = (e) => this.setState({ [e.target.name]: e.target.value });
+    // state change by the value entered in the input field; check what 
+    // happens when [e.target.name] is put instead of title
+    onChange = (e) => this.setState({ title: e.target.value });
 
     render() {
         return (
