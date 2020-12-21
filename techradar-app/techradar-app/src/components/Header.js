@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import logo_ofd from './img/ofd.jpg';
 
 function Header() {
     return (
         <header style={headerStyle}>
-            <img src={"ofd.jpg"} alt="ofd-logo" style={ofd_logo_style}></img>
-            <img src={"lzfd.jpg"} alt="lzfd-logo" style={lzfd_logo_style}></img>
-            <h1>LZfD Technologieradar</h1> 
+            {/* <img src={logo_ofd} alt="ofd-logo" style={ofd_logo_style}></img>
+            <img src={"lzfd.jpg"} alt="lzfd-logo" style={lzfd_logo_style}></img> */}
+            <h1 style={h1style}>LZfD Technologieradar</h1> 
             {/* add links to other sections */}
             <Link style={linkStyle} to="/"> Hauptseite </Link> 
             <Link style={linkStyle} to="/"> Inhaltsverzeichnis </Link>
@@ -17,7 +18,7 @@ function Header() {
 }
 
 const headerStyle = {
-    background: "#333",
+    background: "white",
     color: "#fff",
     textAlign: "center",
     padding: "10px",
@@ -35,21 +36,27 @@ const linkStyle = {
     // 
 }
 
-const ofd_logo_style = {
-    borderRadius: "8px",
-    float: "left",
-    padding: "8px",
-    marginTop: "20px",
-    marginLeft: "20px",
-    align: "middle"
-}
+// const ofd_logo_style = {
+//     borderRadius: "8px",
+//     float: "left",
+//     padding: "8px",
+//     marginTop: "20px",
+//     marginLeft: "20px",
+//     align: "middle",
+//     maxWidth: "100%",
+//     maxHeight: "100%"
+// }
 
-const lzfd_logo_style = {
-    borderRadius: "8px",
-    float: "right",
-    padding: "8px",
-    marginTop: "20px",
-    marginRight: "20px"
+// const lzfd_logo_style = {
+//     borderRadius: "8px",
+//     float: "right",
+//     padding: "8px",
+//     marginTop: "20px",
+//     marginRight: "20px"
+// }
+
+const h1style = {
+    color: "black"
 }
 
 // Add link styling after completion
