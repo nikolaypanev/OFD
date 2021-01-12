@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 // import logo_ofd from './img/ofd.jpg';
 
 function Header() {
@@ -8,9 +7,7 @@ function Header() {
             {/* <img src={logo_ofd} alt="ofd-logo" style={ofd_logo_style}></img>
             <img src={"lzfd.jpg"} alt="lzfd-logo" style={lzfd_logo_style}></img> */}
             <h1 style={h1style}>LZfD Technologieradar</h1> 
-            {/* add links to other sections */}
-            <Link style={linkStyle} to="/"> Hauptseite </Link> 
-            <Link style={linkStyle} to="/"> Inhaltsverzeichnis </Link>
+
             {/* <Link style={linkStyle} to="/about"></Link> */}
         </header>
     )
@@ -22,17 +19,6 @@ const headerStyle = {
     textAlign: "center",
     padding: "10px",
     textColor: "black"
-}
-
-const linkStyle = {
-    textDecoration: "none",
-    color: "black",
-    marginLeft: "10px", // 10px space to the left
-    marginRight: "10px" // 10px space to the right
-    // change color when clicked
-    // remove underline
-    // change cursor on hover
-    // 
 }
 
 // const ofd_logo_style = {
