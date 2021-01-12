@@ -11,7 +11,6 @@ function Header() {
             {/* add links to other sections */}
             <Link style={linkStyle} to="/"> Hauptseite </Link> 
             <Link style={linkStyle} to="/"> Inhaltsverzeichnis </Link>
-            <Link style={linkStyle} to="/"> Impressum </Link>
             {/* <Link style={linkStyle} to="/about"></Link> */}
         </header>
     )

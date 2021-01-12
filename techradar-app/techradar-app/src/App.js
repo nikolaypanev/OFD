@@ -1,18 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Textbox from './components/article/Textbox';
-import sidebar from 'react-sidebar';
+import { Link } from 'react-router-dom';
+import Sidebar from 'react-sidebar';
+
 
 import './App.css';
-import Sidebar from 'react-sidebar';
 
 class App extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      sidebarOpen: true
+      sidebarOpen: false // default state
     };
     this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
   }
@@ -23,19 +24,32 @@ class App extends React.Component {
 
   render() {
     return (
-        <Router>
+      <Router>
         <div className="App">
-          <div className="headerRibbon">
           <Sidebar
             sidebar={<b>Sidebar content</b>}
             open={this.state.sidebarOpen}
             onSetOpen={this.onSetSidebarOpen}
             styles={{ sidebar: { background: "white" } }}
-          >
+            >
+            
+            <Route path="/">
+              <Link style={linkStyle} to="/"> Hauptseite </Link>
+            </Route>
+            <Route>
+              <Link style={linkStyle} to="/"> Inhaltsverzeichnis </Link>
+            </Route>
+            <Route>
+              <Link style={linkStyle} to="/"> Impressum </Link>
+            </Route>
+           
             <button onClick={() => this.onSetSidebarOpen(true)}>
               Open sidebar
             </button>
+            
           </Sidebar>
+          
+          <div className="headerRibbon">
             <Header />
             <header className="App-header">
               <Textbox />
@@ -45,6 +59,13 @@ class App extends React.Component {
       </Router>
     );
   }
+}
+
+const linkStyle = {
+  textDecoration: "none",
+  color: "black",
+  marginLeft: "10px", // 10px space to the left
+  marginRight: "10px"
 }
 
 export default App;
