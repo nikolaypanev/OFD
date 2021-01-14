@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import Header from './components/Header';
 import Textbox from './components/article/Textbox';
 import { Link } from 'react-router-dom';
@@ -13,8 +13,10 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      sidebarDocked: MediaQueryList.matches,
       sidebarOpen: false // default state
     };
+
     this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
   }
 
@@ -27,12 +29,25 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <Sidebar
-            sidebar={<b>Sidebar content</b>}
+          // Add sidebar content here
+          // wrap items in divs
+            sidebar={<b><br></br>  
+              <div className="home">
+                <Link style={linkStyle} to="/"> Hauptseite </Link>
+              </div>
+              <div className="contents">
+                <Link style={linkStyle} to="/"> Inhaltsverzeichnis </Link>
+              </div>
+              <div className="about">
+                <Link style={linkStyle} to="/"> Impressum </Link>
+              </div>
+            </b>}
             open={this.state.sidebarOpen}
             onSetOpen={this.onSetSidebarOpen}
             styles={{ sidebar: { background: "white" } }}
             >
-            
+
+{/* added in a narrow top ribbon when outside of the sidebar tag
             <Route path="/">
               <Link style={linkStyle} to="/"> Hauptseite </Link>
             </Route>
@@ -40,8 +55,8 @@ class App extends React.Component {
               <Link style={linkStyle} to="/"> Inhaltsverzeichnis </Link>
             </Route>
             <Route>
-              <Link style={linkStyle} to="/"> Impressum </Link>
-            </Route>
+             <Link style={linkStyle} to="/"> Impressum </Link>
+            </Route> */}
            
             <button onClick={() => this.onSetSidebarOpen(true)}>
               Open sidebar
