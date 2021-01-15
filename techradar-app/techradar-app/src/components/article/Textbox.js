@@ -13,7 +13,13 @@ function Textbox() {
                     React ist eine open-source JavaScript-Bibliothek zur Entwicklung von grafischen Oberflächen und Komponenten für grafischen Oberflächen. 
                     Darüber hinaus können auch Single Page Apps damit entwickelt werden.React wird oft als ein Framework betrachtet, wegen ihr Verhalten. 
                     Zurzeit ist sie die bekannteste Framework in der Webentwicklung.
+                    
                 </p>
+                {/* <script>
+                    function(){
+                        ("#includedContent").load("article.html")
+                    }
+                </script> */}
             </div>
             <div id="author">
                 <h3> Author </h3>

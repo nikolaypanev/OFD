@@ -2,7 +2,16 @@
 
 .title {
     text-decoration: none;
-    text-emphasis: italic;
     color: brown;
+    background-color: cornflowerblue;
 }
 
+.text {
+    background-color: cyan;
+    font-style: italic;
+}
+
+text > p {
+    font-style: italic;
+    font-weight: bold;
+}

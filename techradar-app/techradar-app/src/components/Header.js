@@ -1,4 +1,5 @@
 import React from 'react';
+
 // import logo_ofd from './img/ofd.jpg';
 
 function Header() {
@@ -21,6 +22,10 @@ const headerStyle = {
     textColor: "black"
 }
 
+const h1style = {
+    color: "black"
+}
+
 // const ofd_logo_style = {
 //     borderRadius: "8px",
 //     float: "left",
@@ -39,11 +44,5 @@ const headerStyle = {
 //     marginTop: "20px",
 //     marginRight: "20px"
 // }
-
-const h1style = {
-    color: "black"
-}
-
-// Add link styling after completion
 
 export default Header
