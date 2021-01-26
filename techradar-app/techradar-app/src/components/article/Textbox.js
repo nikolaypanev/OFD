@@ -1,5 +1,11 @@
 import React from 'react'
 
+function extractContent(s) {
+    var span = document.createElement('span')
+    span.innerHTML = s;
+    return span.textContent || span.innerText
+}
+
 function Textbox() {
     return (
         <div id="container" style={containerStyle}>
@@ -15,11 +21,9 @@ function Textbox() {
                     Zurzeit ist sie die bekannteste Framework in der Webentwicklung.
                     
                 </p>
-                {/* <script>
-                    function(){
-                        ("#includedContent").load("article.html")
-                    }
-                </script> */}
+                <p>
+                    <script>console.log(extractContent(text.html))</script>
+                </p>
             </div>
             <div id="author">
                 <h3> Author </h3>

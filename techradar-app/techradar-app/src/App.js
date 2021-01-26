@@ -9,12 +9,6 @@ import { Button, Card } from 'react-bootstrap'
 import { Form, FormControl } from 'react-bootstrap'
 import Collapsible from 'react-collapsible'
 
-
-
-/* import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar'
-import { SidebarHeader, SidebarFooter, SidebarContent } from 'react-pro-sidebar';
-import 'react-pro-sidebar/dist/css/styles.css'; */
-
 import './App.css';
 
 class App extends React.Component {
@@ -40,7 +34,7 @@ class App extends React.Component {
 
           <Sidebar
             // Add sidebar content here
-            // wrap items in divs
+            // wrap items in divs for better css reference
             sidebar={<b><br></br>
 
               <Form inline>
@@ -48,29 +42,26 @@ class App extends React.Component {
                 <Button variant="outline-success">Search</Button>
               </Form>
               <br></br>
-
-              <div className="test">
-
-                  <Collapsible trigger={<Button>Click here</Button>}>
-                    <p>Text is visible due to collapsing</p>
-                  </Collapsible>
-              </div>
-
+              
               <div className="home">
-                <Card>
                   <Button variant="link">
                     <Link style={linkStyle} to="/"> Hauptseite </Link>
                   </Button>
-                </Card>
               </div>
               <br></br>
 
               <div className="contents">
-                <Card>
-                  <Button variant="link">
-                    <Link style={linkStyle} to="/"> Inhaltsverzeichnis </Link>
-                  </Button>
-                </Card>
+                  <Collapsible trigger={<Button className="contentsButton" variant="link"> Inhaltsverzeichnis </Button>}>
+                    <div className="contentInnerClass">
+                      {/*TODO: add sample content*/}    
+                      <ol>
+                        <li>Kapitel 1</li>
+                        <li>Kapitel 2</li>
+                        <li>Kapitel 3</li>
+                        <li>Kapitel 4</li>
+                      </ol>
+                    </div>
+                  </Collapsible>
               </div>
 
               <div className="about">

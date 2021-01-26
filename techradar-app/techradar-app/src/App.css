@@ -1,3 +1,7 @@
+.contentInnerClass {
+  text-align: justify;
+}
+
 button {
   float: right;
   padding: 5px;
