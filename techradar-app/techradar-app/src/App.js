@@ -55,10 +55,10 @@ class App extends React.Component {
                     <div className="contentInnerClass">
                       {/*TODO: add sample content*/}    
                       <ol>
-                        <li>Kapitel 1</li>
-                        <li>Kapitel 2</li>
-                        <li>Kapitel 3</li>
-                        <li>Kapitel 4</li>
+                        <li><Button><Link to="kapitel1.html">Kapitel 1</Link></Button></li>
+                        <li><Button><Link to="kapitel2.html">Kapitel 2</Link></Button></li>
+                        <li><Button><Link to="kapitel3.html">Kapitel 3</Link></Button></li>
+                        <li><Button><Link to="kapitel4.html">Kapitel 4</Link></Button></li>
                       </ol>
                     </div>
                   </Collapsible>
